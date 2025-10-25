@@ -14,6 +14,9 @@ export default function Team() {
               width={150}
               height={150}
               className="rounded-full mx-auto"
+              style={{ width: 'auto', height: 'auto' }}
+              loading="eager"
+              priority
             />
             <h2 className="text-2xl font-bold mt-4">Dr Meaghan Thumath, DPhil, MPH, RN</h2>
             <p className="font-bold">Chief Executive Officer</p>
@@ -26,6 +29,7 @@ export default function Team() {
               width={150}
               height={150}
               className="rounded-full mx-auto"
+              style={{ width: 'auto', height: 'auto' }}
             />
             <h2 className="text-2xl font-bold mt-4">Dr Jamie Forrest, PhD, MPH</h2>
             <p className="font-bold">Chief Information & Technology Officer</p>

@@ -4,177 +4,162 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <main className="bg-[#22263c] text-white flex flex-col items-center justify-center text-center px-4 py-20">
-        <div className="max-w-4xl">
-          <h1 className="text-6xl font-bold">Counterforce</h1>
+      <main className="bg-[#22263c] text-white flex flex-col items-center justify-center text-center px-4 py-10">
+        <div className="max-w-4xl flex flex-col items-center">
+          <div className="relative w-64 h-64 -mt-10">
+            <Image
+              src="/counterforce_logo5_dark_bg_no_text.png" 
+              alt="Counterforce Logo" 
+              fill
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+          <h1 className="text-6xl font-bold">Real-time Defence for the Information Era</h1>
           <p className="mt-4 text-xl">
-            Real-time detection and mitigation of information warfare
+            Counterforce empowers governments, companies, and organizations to detect, map, and neutralize misinformation before it can cause harm.
           </p>
+          <p className="mt-2 text-lg italic">Trust Defense as a Service.</p>
           <Link href="/product" className="mt-8 inline-block bg-[#e86530] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#bb3e03]">
-            View Product
+            About the Platform
           </Link>
         </div>
       </main>
+
       <section className="bg-white text-[#22263c] py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">The Big Problem</h2>
-          <p className="text-xl text-center mt-4">Truth is not keeping up</p>
+          <h2 className="text-4xl font-bold text-center">Truth Isn't Keeping Up</h2>
+          <p className="text-xl text-center mt-4">Misinformation now moves faster than facts. Within hours, false narratives can disrupt elections, undermine emergency response efforts, or destabilize markets.</p>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
               <p className="text-2xl font-bold">60%</p>
-              <p className="mt-2">of people are exposed to crisis misinformation before facts emerge</p>
+              <p className="mt-2">of people encounter misinformation before verified facts emerge</p>
             </div>
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
               <p className="text-2xl font-bold">43%</p>
-              <p className="mt-2">of Canadians were found to be highly susceptible to health misinformation</p>
+              <p className="mt-2">of Canadians are highly susceptible to health misinformation</p>
             </div>
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <p className="text-2xl font-bold">60%</p>
-              <p className="mt-2">of a false narrative's receptive audience will be reached within 8 hours</p>
+              <p className="text-2xl font-bold">8 Hours</p>
+              <p className="mt-2">Most of a false narrative's audience is reached within this timeframe</p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="bg-[#22263c] text-white py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Our Solution</h2>
-          <p className="text-xl text-center mt-4">Command-level Control of the Information Domain</p>
+          <h2 className="text-4xl font-bold text-center">Our Solution: SEE · MAP · ACT</h2>
+          <p className="text-xl text-center mt-4">From detection to decisive action—the first platform to move from observation to operational control.</p>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-bold">SE</h3>
-              <p className="mt-2">Realtime detection across platforms</p>
+            <div className="bg-gray-100 text-[#22263c] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <h3 className="text-3xl font-bold text-[#22263e]">SEE</h3>
+              <p className="mt-2">Detect emerging narratives, deepfakes, and influence campaigns across open and social data sources in real time.</p>
             </div>
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-bold">MAP</h3>
-              <p className="mt-2">Network analysis of narrative spread</p>
+            <div className="bg-gray-100 text-[#22263c] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <h3 className="text-3xl font-bold text-[#e86530]">MAP</h3>
+              <p className="mt-2">Visualize how misinformation spreads, revealing key influencers, amplification networks, and coordinated activity.</p>
             </div>
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-bold">AC</h3>
-              <p className="mt-2">Automated response and mitigation</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bg-white text-[#22263c] py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Why Now?</h2>
-          <p className="text-xl text-center mt-4">A Synergy of 3 Important Events Make Now Opportune</p>
-          <div className="flex items-center justify-center mt-12">
-            <div className="relative">
-              <div className="w-48 h-48 bg-[#4e989e] rounded-full flex items-center justify-center text-center p-4">
-                <p>Regulatory Momentum</p>
-              </div>
-              <div className="w-48 h-48 bg-[#e86530] rounded-full flex items-center justify-center text-center p-4 absolute top-0 left-32">
-                <p>AI Acceleration</p>
-              </div>
-              <div className="w-48 h-48 bg-[#94d2bd] rounded-full flex items-center justify-center text-center p-4 absolute top-32 left-16">
-                <p>Ubiquity of the Crisis</p>
-              </div>
+            <div className="bg-gray-100 text-[#22263c] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <h3 className="text-3xl font-bold text-[#4e989e]">ACT</h3>
+              <p className="mt-2">Deploy targeted countermeasures—automated alerts, message amplification, and AI-driven recommendations—to contain threats before they cause harm.</p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="bg-[#22263c] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">The Market Opportunity</h2>
-          <p className="text-xl text-center mt-4">$15 Billion Climbing to $60 Billion by 2030</p>
-          <div className="grid md:grid-cols-2 gap-8 mt-12 items-center">
-            <div>
-              <h3 className="text-2xl font-bold">Primary Target Markets:</h3>
-              <ul className="list-disc list-inside mt-4">
-                <li>NATO/EU Defense: Annual information defense budgets exceeding €1.5B.</li>
-                <li>Canadian National Security: Annual budgets over $800M for cyber and information integrity.</li>
-                <li>Global Health Security: An additional $2-3B global opportunity in public health misinformation.</li>
-              </ul>
+          <h2 className="text-4xl font-bold text-center">A $15 Billion Market Growing to $60 Billion by 2030</h2>
+          <p className="text-xl text-center mt-4">Defense, public health, and critical infrastructure are converging around one challenge—trust.</p>
+          <div className="grid md:grid-cols-2 gap-20 mt-16"> {/* Increased gap between columns */}
+            <div className="flex flex-col items-start">
+              <h3 className="text-2xl font-bold mb-8">Market Opportunities</h3>
+              <div className="flex flex-col gap-6 w-full max-w-md mx-auto"> {/* Increased gap and max width */}
+                <span className="bg-[#e86530] text-white px-8 py-3 rounded-full text-center text-lg">Defense and Security</span>
+                <span className="bg-[#4e989e] text-white px-8 py-3 rounded-full text-center text-lg">Public Health</span>
+                <span className="bg-[#94d2bd] text-white px-8 py-3 rounded-full text-center text-lg">Critical Infrastructure</span>
+              </div>
             </div>
-            <div className="relative h-64">
-              <div className="absolute bottom-0 left-1/4 w-1/4 h-1/2 bg-[#e86530] rounded-t-lg"></div>
-              <div className="absolute bottom-0 left-2/4 w-1/4 h-full bg-[#4e989e] rounded-t-lg"></div>
-              <div className="absolute bottom-full left-1/4 w-px h-full bg-gray-300"></div>
-              <div className="absolute bottom-0 left-0 w-full h-px bg-gray-300"></div>
-              <span className="absolute bottom-0 -left-8">0</span>
-              <span className="absolute top-0 -left-8">60</span>
-              <span className="absolute bottom-full left-1/4 -translate-x-1/2">2024</span>
-              <span className="absolute bottom-full left-3/4 -translate-x-1/2">2030</span>
-              <span className="absolute top-1/2 -left-16">$ Billions US</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bg-white text-[#22263c] py-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Go-to-Market</h2>
-          <p className="text-xl text-center mt-4">A 3 Phase Strategy</p>
-          <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <div className="border border-[#22263c] rounded-lg p-8">
-              <h2 className="text-2xl font-bold text-center">Phase 1: Co-Development & Pilots</h2>
-              <ul className="list-disc list-inside mt-4">
-                <li>Target: Existing consulting clients (WHO, Health Canada, DND partners).</li>
-                <li>Action: Convert high-value consulting relationships into paid pilot deployments of the TDaaS platform.</li>
-                <li>Goal: Secure 2-3 flagship contracts with key defense, public health, and emergency management agencies.</li>
-              </ul>
-            </div>
-            <div className="border border-[#22263c] rounded-lg p-8">
-              <h2 className="text-2xl font-bold text-center">Phase 2: Direct Sales & Channel Partners</h2>
-              <ul className="list-disc list-inside mt-4">
-                <li>Target: Expand across NATO/Five Eyes defense agencies and provincial/state health authorities.</li>
-                <li>Action: Build a small, specialized direct sales team. Establish partnerships with major defense contractors and systems integrators.</li>
-                <li>Goal: Achieve scalable, repeatable sales process.</li>
-              </ul>
-            </div>
-            <div className="border border-[#22263c] rounded-lg p-8">
-              <h2 className="text-2xl font-bold text-center">Phase 3: Industry Expansion</h2>
-              <ul className="list-disc list-inside mt-4">
-                <li>Target: Critical infrastructure (pharma, energy, finance), insurance.</li>
-                <li>Action: Develop industry-specific modules for corporate reputation and threat defense.</li>
-                <li>Goal: Become the dominant platform for trust intelligence across public and private sectors.</li>
-              </ul>
+            <div className="relative w-full h-96 flex items-center"> {/* Added flex for vertical centering */}
+              {/* Y-axis labels with better spacing */}
+              <div className="absolute -left-12 h-full flex flex-col justify-between">
+                <span className="text-sm">60</span>
+                <span className="text-sm">0</span>
+              </div>
+              <span className="absolute -left-36 top-1/2 -translate-y-1/2 -rotate-90 text-sm whitespace-nowrap text-gray-400">$ Billions US</span>
+              
+              {/* Graph content */}
+              <div className="absolute inset-0 ml-12"> {/* Increased margin for y-axis labels */}
+                <div className="absolute bottom-0 left-[15%] w-[30%] h-1/2 bg-[#e86530] rounded-t-lg"></div>
+                <div className="absolute bottom-0 right-[15%] w-[30%] h-full bg-[#4e989e] rounded-t-lg"></div>
+                <div className="absolute bottom-0 left-0 w-full h-px bg-gray-300"></div>
+                
+                {/* Year labels with better alignment */}
+                <div className="absolute bottom-0 w-full flex justify-between">
+                  <div className="absolute -bottom-8 w-full flex justify-between">
+                    <span className="text-sm text-gray-400">2024</span>
+                    <span className="text-sm text-gray-400">2030</span>
+                  </div>
+                </div>
+                
+                {/* CAGR label */}
+                <span className="absolute -top-14 left-1/2 -translate-x-1/2 px-6 py-2.5 bg-[#e86530] text-white text-sm rounded-full font-bold shadow-xl transform hover:scale-105 transition-transform duration-300">25% CAGR</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="bg-[#22263c] text-white py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Competitive Analysis</h2>
-          <p className="text-xl text-center mt-4">Market Positioning by Breadth and Depth</p>
-          <div className="relative h-96 mt-12">
-            <div className="absolute top-1/2 left-0 w-full h-px bg-white"></div>
-            <div className="absolute top-0 left-1/2 w-px h-full bg-white"></div>
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48">
-              <Image src="/counterforce_logo3_transparent_bg_no_text.png" alt="Counterforce Logo" layout="fill" objectFit="contain" />
+          <h2 className="text-4xl font-bold text-center">Why Now is the Right Time</h2>
+          <div className="mt-12 grid md:grid-cols-2 gap-12 items-center">
+            <div className="text-left space-y-6">
+              <div className="space-y-3">
+                <h3 className="text-xl font-bold text-[#e86530]">Technological Convergence</h3>
+                <p className="text-gray-300">AI and machine learning have reached the capability to detect and analyze misinformation in real-time.</p>
+              </div>
+              <div className="space-y-3">
+                <h3 className="text-xl font-bold text-[#4e989e]">Growing Threats</h3>
+                <p className="text-gray-300">The scale and sophistication of misinformation campaigns continue to increase exponentially.</p>
+              </div>
+              <div className="space-y-3">
+                <h3 className="text-xl font-bold text-[#94d2bd]">Market Readiness</h3>
+                <p className="text-gray-300">Organizations are actively seeking solutions to protect their stakeholders and operations.</p>
+              </div>
             </div>
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -mt-8">Single Use</div>
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 -mb-8">Dual Use</div>
-            <div className="absolute top-1/2 left-0 -translate-y-1/2 -ml-16">Monitor</div>
-            <div className="absolute top-1/2 right-0 -translate-y-1/2 -mr-16">Control</div>
-            <div className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 text-center">
-              <p className="font-bold">Dataminr</p>
-              <p className="font-bold">Meltwater</p>
-              <p>Single Use, Monitoring Only</p>
-            </div>
-            <div className="absolute top-1/4 right-1/4 -translate-x-1/2 -translate-y-1/2 text-center">
-              <p className="font-bold">Graphika</p>
-              <p className="font-bold">Recorded Future</p>
-              <p>Single Use, Control</p>
-            </div>
-            <div className="absolute bottom-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 text-center">
-              <p className="font-bold">Primer AI</p>
-              <p>Dual Use, Monitoring Only</p>
-            </div>
-            <div className="absolute bottom-1/4 right-1/4 -translate-x-1/2 -translate-y-1/2 text-center">
-              <p className="font-bold">Jigsaw (Google)</p>
-              <p className="font-bold">Trusted AI</p>
-              <p>(IBM/Thomson Reuters)</p>
-              <p>Dual Use, Control</p>
+            <div className="relative w-full max-w-xl mx-auto">
+              <Image 
+                src="/venn_diagram_why_now.png" 
+                alt="Global Shifts Venn Diagram" 
+                width={600} 
+                height={450} 
+                className="mx-auto"
+              />
             </div>
           </div>
         </div>
       </section>
+
+      <section className="bg-white text-[#22263c] py-20 px-4 text-center">
+        <div className="max-w-4xl mx-auto">
+          <div className="inline-block bg-[#22263c] px-12 py-6 rounded-2xl mb-8">
+            <h2 className="text-5xl font-bold text-white">The Vision</h2>
+          </div>
+          <p className="text-2xl leading-relaxed max-w-3xl mx-auto mb-12">
+            Empowering societies to <span className="font-bold text-[#e86530]">safeguard trust</span> and act with confidence—so truth can <span className="font-bold text-[#4e989e]">overcome manipulation</span>.
+          </p>
+          <Link href="/contact" className="inline-block bg-[#e86530] text-white py-4 px-8 rounded-full text-xl font-semibold transform transition-all hover:scale-105 hover:shadow-xl hover:bg-[#bb3e03]">
+            Join the Mission to Defend Truth
+          </Link>
+        </div>
+      </section>
+
       <footer className="bg-[#22263c] text-white py-8 px-4 text-center">
         <p>CONTACT</p>
         <p>Dr. Meaghan Thumath, DPhil, MPH, RN</p>
         <p>Chief Executive Officer, Counterforce</p>
-        <p>Assistant Professor, University of British Columbia, Faculty of Applied Science</p>
+        <p>Assistant Professor, University of British Columbia</p>
         <p>meaghan.thumath@ubc.ca</p>
       </footer>
     </div>
