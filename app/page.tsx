@@ -49,7 +49,7 @@ export default function Home() {
       <section className="bg-[#22263c] text-white py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center">Our Solution: SEE · MAP · ACT</h2>
-          <p className="text-xl text-center mt-4">From detection to decisive action—the first platform to move from observation to operational control.</p>
+          <p className="text-xl text-center mt-4">From detection to decisive action—the first end-to-end technologyplatform to move from observation to operational control.</p>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="bg-gray-100 text-[#22263c] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
               <h3 className="text-3xl font-bold text-[#22263e]">SEE</h3>
@@ -116,16 +116,16 @@ export default function Home() {
           <div className="mt-12 grid md:grid-cols-2 gap-12 items-center">
             <div className="text-left space-y-6">
               <div className="space-y-3">
-                <h3 className="text-xl font-bold text-[#e86530]">Technological Convergence</h3>
+                <h3 className="text-xl font-bold text-[#e86530]">AI Acceleration</h3>
                 <p className="text-gray-300">AI and machine learning have reached the capability to detect and analyze misinformation in real-time.</p>
               </div>
               <div className="space-y-3">
-                <h3 className="text-xl font-bold text-[#4e989e]">Growing Threats</h3>
-                <p className="text-gray-300">The scale and sophistication of misinformation campaigns continue to increase exponentially.</p>
+                <h3 className="text-xl font-bold text-[#4e989e]">Regulatory Momentum</h3>
+                <p className="text-gray-300">A number of recent policy changes in the regulatory environment are favourable towards organizations taking control of their online narratives.</p>
               </div>
               <div className="space-y-3">
-                <h3 className="text-xl font-bold text-[#94d2bd]">Market Readiness</h3>
-                <p className="text-gray-300">Organizations are actively seeking solutions to protect their stakeholders and operations.</p>
+                <h3 className="text-xl font-bold text-[#474a52]">Reach and Impact of the Crisis</h3>
+                <p className="text-gray-300">Nearly every organization is now affected, so more treat information integrity as a core resilience requirement.</p>
               </div>
             </div>
             <div className="relative w-full max-w-xl mx-auto">

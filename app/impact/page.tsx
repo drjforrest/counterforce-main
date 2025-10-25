@@ -16,7 +16,7 @@ export default function Impact() {
               <p className="text-3xl font-bold">$13 Billion US</p>
               <p className="mt-2">Market volatility, corporate reputation damage, fraud.</p>
             </div>
-            <div className="bg-[#94d2bd] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#474a52] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
               <p className="text-3xl font-bold">$9.5 Billion US</p>
               <p className="mt-2">A single false tweet briefly erased $136B from the S&P 500 on April 23, 2013.</p>
             </div>
@@ -57,7 +57,7 @@ export default function Impact() {
               <h2 className="text-2xl font-bold text-center mb-6">Ethical Guardrails</h2>
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                  <h3 className="font-bold text-[#94d2bd] mb-2">Data Protection</h3>
+                  <h3 className="font-bold text-[#474a52] mb-2">Data Protection</h3>
                   <ul className="text-sm text-gray-600 space-y-2">
                     <li>• Enterprise-grade Security Controls</li>
                     <li>• Data Sovereignty Compliance</li>

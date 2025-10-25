@@ -33,11 +33,11 @@ export default function Product() {
               <h2 className="text-2xl font-bold">Predictive Simulation</h2>
               <p className="mt-2">Models how a narrative will evolve and tests the potential impact of different counter-messaging strategies.</p>
             </div>
-            <div className="bg-[#94d2bd] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#cc9900] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
               <h2 className="text-2xl font-bold">Network Analysis</h2>
               <p className="mt-2">Maps how information spreads, identifying key influencers, amplification networks, and coordinated campaigns.</p>
             </div>
-            <div className="bg-[#cc9900] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#474a52] p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
               <h2 className="text-2xl font-bold">Automated Mitigation</h2>
               <p className="mt-2">Recommends actionable responses, from coordinated content amplification to flagging synthetic media.</p>
             </div>
