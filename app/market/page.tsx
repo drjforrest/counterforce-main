@@ -1,63 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 
-export default function Home() {
+export default function Market() {
   return (
-    <div className="min-h-screen">
-      <main className="bg-[#22263c] text-white flex flex-col items-center justify-center text-center px-4 py-20">
-        <div className="max-w-4xl">
-          <h1 className="text-6xl font-bold">Counterforce</h1>
-          <p className="mt-4 text-xl">
-            Real-time detection and mitigation of information warfare
-          </p>
-          <Link href="/product" className="mt-8 inline-block bg-[#e86530] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#bb3e03]">
-            View Product
-          </Link>
-        </div>
-      </main>
+    <>
       <section className="bg-white text-[#22263c] py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">The Big Problem</h2>
-          <p className="text-xl text-center mt-4">Truth is not keeping up</p>
-          <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <p className="text-2xl font-bold">60%</p>
-              <p className="mt-2">of people are exposed to crisis misinformation before facts emerge</p>
-            </div>
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <p className="text-2xl font-bold">43%</p>
-              <p className="mt-2">of Canadians were found to be highly susceptible to health misinformation</p>
-            </div>
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <p className="text-2xl font-bold">60%</p>
-              <p className="mt-2">of a false narrative's receptive audience will be reached within 8 hours</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bg-[#22263c] text-white py-20 px-4 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Our Solution</h2>
-          <p className="text-xl text-center mt-4">Command-level Control of the Information Domain</p>
-          <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-bold">SE</h3>
-              <p className="mt-2">Realtime detection across platforms</p>
-            </div>
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-bold">MAP</h3>
-              <p className="mt-2">Network analysis of narrative spread</p>
-            </div>
-            <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-bold">AC</h3>
-              <p className="mt-2">Automated response and mitigation</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bg-white text-[#22263c] py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Why Now?</h2>
+          <h1 className="text-4xl font-bold text-center">Why Now?</h1>
           <p className="text-xl text-center mt-4">A Synergy of 3 Important Events Make Now Opportune</p>
           <div className="flex items-center justify-center mt-12">
             <div className="relative">
@@ -76,11 +24,11 @@ export default function Home() {
       </section>
       <section className="bg-[#22263c] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">The Market Opportunity</h2>
+          <h1 className="text-4xl font-bold text-center">The Market Opportunity</h1>
           <p className="text-xl text-center mt-4">$15 Billion Climbing to $60 Billion by 2030</p>
           <div className="grid md:grid-cols-2 gap-8 mt-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold">Primary Target Markets:</h3>
+              <h2 className="text-2xl font-bold">Primary Target Markets:</h2>
               <ul className="list-disc list-inside mt-4">
                 <li>NATO/EU Defense: Annual information defense budgets exceeding €1.5B.</li>
                 <li>Canadian National Security: Annual budgets over $800M for cyber and information integrity.</li>
@@ -103,7 +51,7 @@ export default function Home() {
       </section>
       <section className="bg-white text-[#22263c] py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Go-to-Market</h2>
+          <h1 className="text-4xl font-bold text-center">Go-to-Market</h1>
           <p className="text-xl text-center mt-4">A 3 Phase Strategy</p>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="border border-[#22263c] rounded-lg p-8">
@@ -135,7 +83,7 @@ export default function Home() {
       </section>
       <section className="bg-[#22263c] text-white py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Competitive Analysis</h2>
+          <h1 className="text-4xl font-bold text-center">Competitive Analysis</h1>
           <p className="text-xl text-center mt-4">Market Positioning by Breadth and Depth</p>
           <div className="relative h-96 mt-12">
             <div className="absolute top-1/2 left-0 w-full h-px bg-white"></div>
@@ -170,13 +118,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="bg-[#22263c] text-white py-8 px-4 text-center">
-        <p>CONTACT</p>
-        <p>Dr. Meaghan Thumath, DPhil, MPH, RN</p>
-        <p>Chief Executive Officer, Counterforce</p>
-        <p>Assistant Professor, University of British Columbia, Faculty of Applied Science</p>
-        <p>meaghan.thumath@ubc.ca</p>
-      </footer>
-    </div>
+    </>
   );
 }
