@@ -27,7 +27,7 @@ export default function Home() {
 
       <section className="bg-white text-[#22263c] py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center">Truth Isn't Keeping Up</h2>
+          <h2 className="text-4xl font-bold text-center">Truth Isn&#39;t Keeping Up</h2>
           <p className="text-xl text-center mt-4">Misinformation now moves faster than facts. Within hours, false narratives can disrupt elections, undermine emergency response efforts, or destabilize markets.</p>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
               <p className="text-2xl font-bold">8 Hours</p>
-              <p className="mt-2">Most of a false narrative's audience is reached within this timeframe</p>
+              <p className="mt-2">Most of a false narrative&#39;s audience is reached within this timeframe</p>
             </div>
           </div>
         </div>

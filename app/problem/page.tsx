@@ -15,7 +15,7 @@ export default function Problem() {
           </div>
           <div className="bg-gray-100 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
             <p className="text-2xl font-bold">60%</p>
-            <p className="mt-2">of a false narrative's receptive audience will be reached within 8 hours</p>
+            <p className="mt-2">of a false narrative&#39;s receptive audience will be reached within 8 hours</p>
           </div>
         </div>
       </div>

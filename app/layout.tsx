@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import NavBar from "./components/navbar";
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={GeistSans.className}>
         <NavBar />
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   );
